@@ -1,0 +1,21 @@
+{
+  "tugas": "UTS Jaringan Komputer Routing Dasar",
+  "topologi": "1 Router 2 Switch 4 PC",
+  "router": {
+    "hostname": "Router0",
+    "interfaces": {
+      "GigabitEthernet0/0": "192.168.1.1 255.255.255.0",
+      "GigabitEthernet0/1": "192.168.2.1 255.255.255.0"
+    }
+  },
+  "switches": ["Switch0", "Switch1"],
+  "pcs": [
+    {"name": "PC0", "ip": "192.168.1.2", "gateway": "192.168.1.1", "switch": "Switch0"},
+    {"name": "PC1", "ip": "192.168.1.3", "gateway": "192.168.1.1", "switch": "Switch0"},
+    {"name": "PC2", "ip": "192.168.2.2", "gateway": "192.168.2.1", "switch": "Switch1"},
+    {"name": "PC3", "ip": "192.168.2.3", "gateway": "192.168.2.1", "switch": "Switch1"}
+  ],
+  "hasil_ping": "100% Success",
+  "mahasiswa": "Meliana24",
+  "nilai_simulasi": 96
+}
